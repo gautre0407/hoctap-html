@@ -1,25 +1,56 @@
-.td1 div{
-    float:left;
+body{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+
+}
+.tieude1{
+    width: 990px;
+    height: 40px;
     background-color: bisque;
+}
+.tieude1 p{
+    background-color: bisque;
+    height: 20px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: 100%;
+    width: 20%;
+    float: left;
+}
+.td1{
+    float:right;
+    font-size:100%;
+    padding-right: 20px;
+    height: 15px;
+    padding: bottom 15px;
 }
 .clear{
     clear:both;
 }
-.td2{
-    width: 100%;
-    background-color: yellow;
+.tieude2{
+    background-color: violet;
+    width: 990px;
+    height: 60px;   
 }
 .td2 div{
     background-color: violet;
-    width: 10%;
+    padding-right: 20px;
     height: 30px;
-    margin:0;
-    border:0;
     font-size: 100%;
-    float:left;    
+    float:right;    
 }
-.td2 div img{
-    width: 30%;
+.tieude2 div img{
+    float:left;
+    width: 10%;
+    height: 50px;
+}
+#logo1{
+    background-color: violet;
+    float:left;
+    height: 30px;
+    padding-right: 20px;
+    font-size: 100%;
 }
 section{
     width: 100%;
