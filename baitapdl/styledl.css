@@ -1,0 +1,33 @@
+.td1 div{
+    float:left;
+    background-color: bisque;
+}
+.clear{
+    clear:both;
+}
+.td2{
+    width: 100%;
+    background-color: yellow;
+}
+.td2 div{
+    background-color: violet;
+    width: 10%;
+    height: 30px;
+    margin:0;
+    border:0;
+    font-size: 100%;
+    float:left;    
+}
+.td2 div img{
+    width: 30%;
+}
+section{
+    width: 100%;
+    clear:both;
+}
+footer{
+    width: 100%;
+}
+div{
+    padding: 5px 5px 5px 5px;
+}
