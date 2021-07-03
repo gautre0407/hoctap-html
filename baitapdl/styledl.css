@@ -1,64 +1,151 @@
-body{
-    width: 1000px;
+.bar{
+    width: 100%;
+    background-color: bisque;
+    height: 25px;
+}
+.bar1200px{
+    width: 1200px;
     margin: auto;
-    background-color: white;
-
-}
-.tieude1{
-    width: 990px;
-    height: 40px;
     background-color: bisque;
 }
-.tieude1 p{
-    background-color: bisque;
-    height: 20px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    font-size: 100%;
-    width: 20%;
+.hotline{
     float: left;
+    width: 357px;
+    background-color: bisque;
+    padding-top: 1.3px;
+    padding-left: 3px;
+    font-size: 125%;
 }
-.td1{
-    float:right;
-    font-size:100%;
-    padding-right: 20px;
-    height: 15px;
-    padding: bottom 15px;
+.bar1{
+    float: right;
+    width: 840px;
+    background-color: bisque;
+}
+.bar1 div{
+    float: right;
+    background-color: bisque;
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    width: 100%;
+    background-color: blueviolet;
+    height: 37px;
+}
+.menu1200px{
+    width: 1200px;
+    background-color: blueviolet;
+    margin: auto;
+    height: 37px;
 }
 .clear{
     clear:both;
 }
-.tieude2{
-    background-color: violet;
-    width: 990px;
-    height: 60px;   
+.logo{
+    width: 360px;
+    float: left;
 }
-.td2 div{
-    background-color: violet;
-    padding-right: 20px;
+.logo img{
     height: 30px;
-    font-size: 100%;
-    float:right;    
+    float: left;
+    background-color: blueviolet;
+    padding-top: 3.5px;
 }
-.tieude2 div img{
-    float:left;
-    width: 10%;
-    height: 50px;
+.logo1{
+    background-color: blueviolet;
+    float: left;
+    padding-top: 9.7px;
 }
-#logo1{
-    background-color: violet;
-    float:left;
-    height: 30px;
-    padding-right: 20px;
-    font-size: 100%;
+}
+.menu1{
+    float: right;
+    background-color: blueviolet;
+    width: 840px;
+}
+.menu1 div{
+    float: right;
+    padding-top: 9.7px;
+    padding-right: 10px;
+}
+.menu a{
+    color: yellow;
 }
 section{
-    width: 100%;
-    clear:both;
+    width: 1200px;
+    margin: auto;
+}
+.banner div img{
+    width: 500px;
+    height: 600px;
+    float: left;
+}
+.mua{
+    float: right;
+    width: 700px;
+    height: 600px;
+}
+.mua a{
+    font-size: 200%;
+    color: black;
+    padding-left: 5px;
+}
+.tren{
+    float: right;
+    height: 300px;
+    width: 700px;
+}
+#xuan{
+    float: right;
+    background-color: green;
+    height: 300px;
+    width: 350px;
+}
+#ha{
+    float: right;
+    background-color: yellow;
+    height: 300px;
+    width: 350px;
+}
+.duoi{
+    float: right;
+    height: 300px;
+    width: 700px;
+}
+#thu{
+    float: right;
+    background-color: palevioletred;
+    height: 300px;
+    width: 350px;
+}
+#dong{
+    float: right;
+    background-color: slategrey;
+    height: 300px;
+    width: 350px;
+}
+.ttn>div{
+    float: left;
+    width: 228px;
+    height: 388px;
+    background-color: sienna;
+    border: springgreen 1px solid;
+    margin: 5px;
+}
+.ttn1{
+    float: top;
+}
+.ttn img{
+    width: 228px;
+    height: 285px;
+}
+.ttn1 a{
+    padding-left: 5px;
+    color: yellow;
+    font-size: 125%;
 }
 footer{
-    width: 100%;
-}
-div{
-    padding: 5px 5px 5px 5px;
+    width: 1200px;
+    margin: auto;
 }
