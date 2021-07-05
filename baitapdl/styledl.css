@@ -1,3 +1,12 @@
+body{
+    margin: 62px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 .bar{
     width: 100%;
     background-color: bisque;
@@ -64,7 +73,7 @@ a{
     background-color: blueviolet;
     width: 840px;
 }
-.menu1 div{
+.menu1{
     float: right;
     padding-top: 9.7px;
     padding-right: 10px;
@@ -76,7 +85,7 @@ section{
     width: 1200px;
     margin: auto;
 }
-.banner div img{
+.banner .banner-img{
     width: 500px;
     height: 600px;
     float: left;
@@ -125,7 +134,10 @@ section{
     height: 300px;
     width: 350px;
 }
-.ttn>div{
+.tt{
+    font-size: 125%;
+}
+.ttn1{
     float: left;
     width: 228px;
     height: 388px;
@@ -133,7 +145,7 @@ section{
     border: springgreen 1px solid;
     margin: 5px;
 }
-.ttn1{
+.ttn1 div{
     float: top;
 }
 .ttn img{
@@ -145,7 +157,21 @@ section{
     color: yellow;
     font-size: 125%;
 }
+.ttn1a{
+    width: 228px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
 footer{
     width: 1200px;
     margin: auto;
+}
+#cskh{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    right: 25px;
+    background-color: rgb(55, 55, 214);
+    padding: 5px;
+    border: black 2px solid;
 }
