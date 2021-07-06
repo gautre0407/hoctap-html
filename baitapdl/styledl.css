@@ -6,6 +6,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10000000;
 }
 .bar{
     width: 100%;
@@ -37,6 +38,7 @@ header{
 }
 a{
     text-decoration: none;
+    color: blueviolet;
 }
 .menu{
     width: 100%;
@@ -85,54 +87,57 @@ section{
     width: 1200px;
     margin: auto;
 }
-.banner .banner-img{
-    width: 500px;
+.banner-img, .banner-img img{
+    width: 700px;
     height: 600px;
     float: left;
 }
 .mua{
     float: right;
-    width: 700px;
+    width: 500px;
     height: 600px;
 }
-.mua a{
+/* .mua a{
     font-size: 200%;
     color: black;
     padding-left: 5px;
-}
-.tren{
+} */
+.trenduoi{
     float: right;
     height: 300px;
-    width: 700px;
+    width: 500px;
 }
-#xuan{
+.xhtd{
     float: right;
-    background-color: green;
-    height: 300px;
-    width: 350px;
+    background-color: white;
+    height: 287px;
+    width: 237px;
+    border: solid black 1.5px;
+    margin: 5px;
+    position: relative;
 }
-#ha{
-    float: right;
-    background-color: yellow;
-    height: 300px;
-    width: 350px;
+.xhtd img{
+    width: 237px;
+    height: 200px;
 }
-.duoi{
-    float: right;
-    height: 300px;
-    width: 700px;
+.xhtd div{
+    float: top;
 }
-#thu{
-    float: right;
-    background-color: palevioletred;
-    height: 300px;
-    width: 350px;
+.xhtd1{
+    width: 237px;
+    background-color: blanchedalmond;
+    text-align: center;
 }
-#dong{
-    float: right;
-    background-color: slategrey;
-    height: 300px;
-    width: 350px;
+.xhtd2{
+    padding: 3px;
+}
+.hot{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: red;
+    font-size: 30px;
+    font:bold;
 }
 .tt{
     font-size: 125%;
@@ -142,7 +147,7 @@ section{
     width: 228px;
     height: 388px;
     background-color: sienna;
-    border: springgreen 1px solid;
+    border: black 1px solid;
     margin: 5px;
 }
 .ttn1 div{
@@ -152,15 +157,17 @@ section{
     width: 228px;
     height: 285px;
 }
-.ttn1 a{
+/* .ttn1 a{
     padding-left: 5px;
-    color: yellow;
     font-size: 125%;
-}
+} */
 .ttn1a{
     width: 228px;
-    background-color: cornflowerblue;
+    background-color: blanchedalmond;
     text-align: center;
+}
+.ttn1b{
+    padding: 3px;
 }
 footer{
     width: 1200px;
