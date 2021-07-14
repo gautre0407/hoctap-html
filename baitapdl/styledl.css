@@ -1,113 +1,122 @@
 body{
-    margin: 62px;
+    margin: 62px 0 5px 0;
 }
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.clear{
+    clear:both;
+}
+/* ==============Đây là phần header================= */
 header{
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10000000;
+    height: 67px;
 }
-.bar{
+header .bar{
     width: 100%;
     background-color: bisque;
-    height: 25px;
 }
-.bar1200px{
-    width: 1200px;
-    margin: auto;
-    background-color: bisque;
+header .bar .container{
+    height: 30px;
 }
-.hotline{
+header .bar .container .hotline{
     float: left;
-    width: 357px;
-    background-color: bisque;
-    padding-top: 1.3px;
-    padding-left: 3px;
-    font-size: 125%;
+    width: 250px;
+    font-size: 160%;
+    padding-left: 5px;
 }
-.bar1{
+header .bar .container .bar-item{
     float: right;
-    width: 840px;
-    background-color: bisque;
+    width: 945px;
+    height: 30px;
 }
-.bar1 div{
+header .bar .container .bar-item div{
     float: right;
-    background-color: bisque;
-    padding-right: 10px;
+    padding-right: 37px;
+    height: 30px;
 }
-a{
-    text-decoration: none;
-    color: blueviolet;
+header .bar .container .bar-item div a{
+    font-size: 25px;
 }
-.menu{
+header .bar .container .bar-item input{
+    width: 600px;
+    height: 20px;
+}
+header .bar .container .bar-item form{
+    margin-top: 2px;
+}
+header .menu{
     width: 100%;
     background-color: blueviolet;
     height: 37px;
 }
-.menu1200px{
-    width: 1200px;
-    background-color: blueviolet;
-    margin: auto;
+header .menu .container{
     height: 37px;
 }
-.clear{
-    clear:both;
-}
-.logo{
-    width: 360px;
+header .menu .container .logo{
+    width: 250px;
     float: left;
+    margin-top: 3.5px;
 }
-.logo img{
+header .menu .container .logo img{
     height: 30px;
     float: left;
-    background-color: blueviolet;
-    padding-top: 3.5px;
 }
-.logo1{
-    background-color: blueviolet;
+header .menu .container .logo .logo-item{
     float: left;
-    padding-top: 9.7px;
+    height: 30px;
+    font-size: 26px;
 }
-}
-.menu1{
+header .menu .container .menu-item{
     float: right;
     background-color: blueviolet;
-    width: 840px;
+    width: 950px;
+    height: 30px;
+    margin-top: 3.5px;
 }
-.menu1{
+header .menu .container .menu-item .item{
     float: right;
-    padding-top: 9.7px;
-    padding-right: 10px;
+    font-size: 26px;
+    padding-right: 60px;
 }
-.menu a{
+header .menu a{
     color: yellow;
 }
+/* ============================Đây là phần section==================== */
 section{
     width: 1200px;
     margin: auto;
+    margin-top: 67px;
 }
-.banner-img, .banner-img img{
+section .container .banner .slide{
     width: 700px;
     height: 600px;
     float: left;
 }
-.mua{
+section .container .banner .slide img{
+    width: 700px;
+    height: 600px;
+}
+section .container .banner .tour-hot{
     float: right;
     width: 500px;
     height: 600px;
 }
-/* .mua a{
-    font-size: 200%;
-    color: black;
-    padding-left: 5px;
-} */
-.trenduoi{
+section .container .banner .tour-hot-sp{
     float: right;
     height: 300px;
     width: 500px;
 }
-.xhtd{
+section .container .banner .tour-hot-sp .tour-item{
     float: right;
     background-color: white;
     height: 287px;
@@ -116,59 +125,46 @@ section{
     margin: 5px;
     position: relative;
 }
-.xhtd img{
+section .container .banner .tour-hot-sp .tour-item img{
     width: 237px;
     height: 200px;
 }
-.xhtd div{
-    float: top;
-}
-.xhtd1{
+section .container .banner .tour-hot-sp .tour-item .item{
     width: 237px;
     background-color: blanchedalmond;
     text-align: center;
 }
-.xhtd2{
-    padding: 3px;
+.tour-item .item+div{
+    padding: 5px;
 }
-.hot{
+section .container .banner .tour-hot-sp .tour-item .hot img{
+    width: 50px;
+    height: 50px;
     position: absolute;
-    top: 15px;
-    left: 15px;
-    color: red;
-    font-size: 30px;
-    font:bold;
+    top: 5px;
+    left: 7px;
 }
-.tt{
-    font-size: 125%;
+section .container ul{
+    font-size: 150%;
 }
-.ttn1{
+section .container div .tour .tour-item{
     float: left;
-    width: 228px;
-    height: 388px;
+    width: 226px;
+    height: 386px;
     background-color: sienna;
-    border: black 1px solid;
+    border: black 2px solid;
     margin: 5px;
 }
-.ttn1 div{
-    float: top;
-}
-.ttn img{
+section .container div .tour .tour-item img{
     width: 228px;
     height: 285px;
 }
-/* .ttn1 a{
-    padding-left: 5px;
-    font-size: 125%;
-} */
-.ttn1a{
-    width: 228px;
+section .container div .tour .tour-item .item{
+    width: 226px;
     background-color: blanchedalmond;
     text-align: center;
 }
-.ttn1b{
-    padding: 3px;
-}
+/* ================Đây là phần footer============== */
 footer{
     width: 1200px;
     margin: auto;
