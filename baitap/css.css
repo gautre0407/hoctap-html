@@ -1,0 +1,34 @@
+.lang li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container-fluid{
+    width: 1200px;
+    margin: auto;
+}
+/* nav .container-fluid{
+    background-color: black;
+} */
+.nav-item{
+    color: rgb(39, 231, 14);
+}
+.ndd{
+    margin-top: 56px;
+}
+.book-a-table-click{
+    font-size: 13px;
+    margin: 0 0 0 15px;
+    border: 2px solid #cda45e;
+    color: rgb(39, 231, 14);
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 8px 25px;
+    transition: 0.3s;
+}
+.nav-item-book-table{
+    margin-top: 9.2px;
+}
