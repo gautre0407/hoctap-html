@@ -4,18 +4,9 @@
 a{
     text-decoration: none;
 }
-.container-fluid{
-    width: 1200px;
-    margin: auto;
-}
-/* nav .container-fluid{
-    background-color: black;
-} */
+
 .nav-item{
     color: rgb(39, 231, 14);
-}
-.ndd{
-    margin-top: 56px;
 }
 .book-a-table-click{
     font-size: 13px;
@@ -29,6 +20,6 @@ a{
     padding: 8px 25px;
     transition: 0.3s;
 }
-.nav-item-book-table{
-    margin-top: 9.2px;
-}
+/* section .row{
+    margin-top: 110px;
+} */
