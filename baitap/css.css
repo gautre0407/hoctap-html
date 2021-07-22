@@ -1,25 +1,131 @@
-.lang li{
+body{
+    font-family: "Open Sans", sans-serif;
+    background: #0c0b09;
+    color: #fff;
+}
+li{
     list-style-type: none;
 }
 a{
     text-decoration: none;
 }
-
+.col-4 a{
+    color: #cda45e;
+}
+h1,h2{
+    color: white;
+}
+.topbar{
+    color: white;
+}
+.navbar{
+    background: rgba(12, 11, 9, 0.6)
+}
 .nav-item{
     color: rgb(39, 231, 14);
 }
-.book-a-table-click{
-    font-size: 13px;
-    margin: 0 0 0 15px;
-    border: 2px solid #cda45e;
-    color: rgb(39, 231, 14);
+.btn{
     border-radius: 50px;
-    text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 500;
-    padding: 8px 25px;
     transition: 0.3s;
 }
-/* section .row{
-    margin-top: 110px;
-} */
+#hero{
+    background-image: url("Image/199284438_342379014012210_5835776705539785049_n.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+#hero .row{
+    margin-top: 100px;
+}
+#hero span{
+    color: #cda45e;
+}
+#about img{
+    width: 540px;
+    height: 400px;
+}
+.why-us{
+    padding: 60px;
+}
+.why-us .why-us-tittle{
+    padding-bottom: 40px;
+}
+.why-us span{
+    font-size: 28px;
+    font-weight: 700;
+    color: #cda45e;
+}
+.why-us h4{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+.why-us p{
+    color: #aaaaaa;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.why-us .box{
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    transition: all ease-in-out 0.3s;
+    background: #1a1814;
+}
+.menu{
+    background: #1a1814;
+}
+.filterdiv{
+    float: left;
+    color: #ffffff;
+    width: 542px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}
+.filterdiv img{
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+.menu .menu-content{
+    position: relative;
+}
+.menu .menu-content::after{
+    content: "......................................................................";
+    position: absolute;
+    left: 20px;
+    right: 0;
+    top: -4px;
+    z-index: 1;
+    color: #bab3a6;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.show{
+    display: block;
+}
+.menu .container{
+    margin-top: 1px;
+    overflow: hidden;
+}
+.specials .tab-pane h3{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+#events,#book-a-table,#specials,#gallery,#about{
+    margin-top: 60px;
+}
+#gallery img{
+    width: 270px;
+    height: 200px;
+}
