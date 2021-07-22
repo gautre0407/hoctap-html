@@ -8,6 +8,7 @@ li{
 }
 a{
     text-decoration: none;
+    color: bisque;
 }
 .col-4 a{
     color: #cda45e;

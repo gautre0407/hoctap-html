@@ -18,12 +18,13 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10000000;
     height: 67px;
+    z-index: 100000;
 }
 header .bar{
     width: 100%;
     background-color: bisque;
+    /* z-index: 99900; */
 }
 header .bar .container{
     height: 30px;
@@ -168,6 +169,11 @@ section .container div .tour .tour-item .item{
 footer{
     width: 1200px;
     margin: auto;
+}
+.cailuong{
+    width: 600px;
+    margin: auto;
+    
 }
 #cskh{
     position: fixed;
