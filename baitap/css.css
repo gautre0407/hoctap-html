@@ -176,16 +176,16 @@ section .chefs-img img{
 section #chefs span{
     color: #cda45e;
 }
-#chefs .chefs-transition span,#chefs .chefs-transition h2,.chefs-icon a{ 
+section #chefs .chefs-tst h2,.chefs-tst span,.chefs-icon a{
     color: #ffc107;
     font-weight: 650;
 }
-section #chefs-transition{
+section #chefs-transition,section #chefs-transition-2,section #chefs-transition-3{
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-section .chefs-transition{
+section .chefs-transition,section .chefs-transition-2,section .chefs-transition-3{
     position:absolute;
     bottom: 0;
     left: 0;
@@ -195,6 +195,12 @@ section .chefs-transition{
     transition: height 0.5s;
 }
 section #chefs-transition:hover .chefs-transition{
+    height: 120px;
+}
+section #chefs-transition-2:hover .chefs-transition-2{
+    height: 120px;
+}
+section #chefs-transition-3:hover .chefs-transition-3{
     height: 120px;
 }
 section #contact .contact-tittle p{
