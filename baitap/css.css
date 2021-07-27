@@ -3,35 +3,45 @@ body{
     background: #0c0b09;
     color: #fff;
 }
+nav .book-a-table,#background-top .book-a-table{
+    margin: 0 0 0 15px;
+    border: 2px solid #ffc107;;
+    color: #ffc107;
+    border-radius: 50px;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+nav .book-a-table:hover,#background-top .book-a-table:hover{
+    background-color: #ffc107!important;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 li{
     list-style-type: none;
 }
 a{
     text-decoration: none;
-    color: bisque;
+    color: #ffc107;
 }
-.col-4 a{
-    color: #cda45e;
-}
-h1,h2{
+header .topbar{
     color: white;
 }
-.topbar{
-    color: white;
+header .topbar span{
+    font-style:normal;
 }
-.navbar{
-    background: rgba(12, 11, 9, 0.6)
+header #topbar a::before{
+    content: "/";
 }
-.nav-item{
-    color: rgb(39, 231, 14);
+header nav{
+    background: black;
+    opacity: 0.6;
 }
-.btn{
-    border-radius: 50px;
-    letter-spacing: 1px;
-    font-weight: 500;
-    transition: 0.3s;
-}
-#hero{
+section #background-top{
     background-image: url("Image/199284438_342379014012210_5835776705539785049_n.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -39,94 +49,191 @@ h1,h2{
     width: 100%;
     height: 100vh;
 }
-#hero .row{
+section #background-top .row{
     margin-top: 100px;
 }
-#hero span{
-    color: #cda45e;
+section #background-top span{
+    color: #ffc107;
 }
-#about img{
-    width: 540px;
-    height: 400px;
+section #about img{
+    width: 100%;
+    height: 100%;
 }
-.why-us{
+section .why-us{
     padding: 60px;
 }
-.why-us .why-us-tittle{
+section .why-us .why-us-tittle{
     padding-bottom: 40px;
 }
-.why-us span{
+section .why-us .why-us-tittle p{
+    font-size: 36px;
+    font-weight: 700px;
+    color: #ffc107;
+}
+section .why-us span{
     font-size: 28px;
     font-weight: 700;
-    color: #cda45e;
+    color: #ffc107;
 }
-.why-us h4{
+section .why-us h4{
     font-size: 24px;
     font-weight: 600;
     padding: 0;
     margin: 20px 0;
     color: rgba(255, 255, 255, 0.8);
 }
-.why-us p{
+section .why-us p{
     color: #aaaaaa;
     font-size: 15px;
     margin: 0;
     padding: 0;
 }
-.why-us .box{
+section .why-us .box{
     padding: 50px 30px;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
     transition: all ease-in-out 0.3s;
     background: #1a1814;
 }
-.menu{
+section .menu{
     background: #1a1814;
+    padding-top: 60px;
+}
+section .menu .menu-tittle p{
+    font-size: 36px;
+    font-weight: 700px;
+    color: #ffc107;
+}
+section .menu .filterdiv img{
+    width: 60%;
 }
 .filterdiv{
     float: left;
     color: #ffffff;
     width: 542px;
-    line-height: 100px;
+    line-height: 20px;
     text-align: center;
     margin: 2px;
     display: none;
 }
-.filterdiv img{
-    width: 70px;
-    border-radius: 50%;
-    float: left;
-    border: 5px solid rgba(255, 255, 255, 0.2);
-}
-.menu .menu-content{
-    position: relative;
-}
-.menu .menu-content::after{
-    content: "......................................................................";
-    position: absolute;
-    left: 20px;
-    right: 0;
-    top: -4px;
-    z-index: 1;
-    color: #bab3a6;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
 .show{
     display: block;
 }
-.menu .container{
+section .menu .container{
     margin-top: 1px;
     overflow: hidden;
 }
-.specials .tab-pane h3{
+section #specials .specials-tittle p{
+    font-size: 36px;
+    font-weight: 700px;
+    color: #ffc107;
+}
+section .specials .tab-pane h3{
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
     color: #fff;
 }
-#events,#book-a-table,#specials,#gallery,#about{
+section #events .event-tittle p{
+    font-size: 36px;
+    font-weight: 700px;
+    color: #ffc107;
+}
+section #events .carousel-item{
+    height: 500px;
+}
+section #events .carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+section #book-a-table .bat-tittle p{
+    font-size: 36px;
+    font-weight: 700px;
+    color: #ffc107;
+}
+section #book-a-table button{
+    border-radius: 50px;
+}
+#events,#book-a-table,#specials,#gallery,#about,#chefs,#contact,footer{
     margin-top: 60px;
 }
-#gallery img{
-    width: 270px;
-    height: 200px;
+section #gallery .gallery-tittle p{
+    font-size: 36px;
+    font-weight: 700px;
+    color: #ffc107;
+}
+section #gallery img{
+    width: 100%;
+    height: 100%;
+}
+section #chefs .chefs-tittle p{
+    font-size: 36px;
+    font-weight: 700px;
+    color: #ffc107;
+}
+section .chefs-img img{
+    width: 100%;
+}
+section #chefs span{
+    color: #cda45e;
+}
+#chefs .chefs-transition span,#chefs .chefs-transition h2,.chefs-icon a{ 
+    color: #ffc107;
+    font-weight: 650;
+}
+section #chefs-transition{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+section .chefs-transition{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    text-align: center;
+    transition: height 0.5s;
+}
+section #chefs-transition:hover .chefs-transition{
+    height: 120px;
+}
+section #contact .contact-tittle p{
+    font-size: 36px;
+    font-weight: 700px;
+    color: #ffc107;
+}
+footer{
+    margin-bottom: 60px;
+}
+footer ul{
+    padding: 0px;
+}
+footer form{
+    margin-top: 30px;
+    background: #28251f;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid #454035;
+}
+footer form input[type="email"]{
+    border: 0;
+    padding: 4px;
+    width: calc(100% - 110px);
+    background: #28251f;
+    color: white;
+}
+footer form input[type="submit"]{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px 2px 20px;
+    background: #ffc107;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
 }
